@@ -1,0 +1,1754 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+     <link type="text/css" rel="stylesheet" href="headAndFoot.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>ENHAPP-Home</title>
+
+    <style type="text/css">
+            /*.landing-img
+      {
+        height: 60%;
+      }*/
+      /*new header*/
+
+      @media screen and (max-width: 758px) {
+
+        #download-hd{
+                width: 100%;
+   
+        }
+  .for-text-first {
+    width: 100%;
+    font-size: 3vw;
+
+  
+  }
+  .data-text {
+    max-width: 100%;
+    font-size: 2vw;
+    line-height: 12px;
+  }
+  .know-button{
+    max-width: 100%;
+    font-size: 2vw;
+    height: auto;
+  }
+  .enhapp-img{
+    width: 100%;
+    font-size: 1vw;
+  }
+     #d1 {
+            position: relative;
+          size: 1vw;
+            width: 100% !important;
+        }
+
+    .download-heading{
+    width: 100%;
+    font-size: 2vw;
+  }
+
+  .download-sub-heading{
+    width: 100%;
+    font-size: 1vw;
+  }
+   .for-heading{
+    z-index: 2;
+   }
+
+   .har-imgs{
+    size: 2vw;
+   }
+        
+        .store-heading {
+
+            width: 50%;
+            font-size: 1vw;
+           
+           
+        }
+        
+        .store-text {
+
+            width: 100%;
+        }
+        
+        .store-data {
+            width: 42%;
+            font-size: 16px;
+            
+        }
+}
+
+
+
+  @media all and (min-width:1270px )
+  {
+      .item-size{
+          margin-left:1vw;
+          
+        }
+        .search{
+            margin-left:10vw;
+        }
+        .home{
+            margin-left:100px;
+        }
+         .for-text-first{
+                     margin-left:-50px;
+        }
+        .picture{
+            width: 204px;
+            height: 381px;
+            margin-top:55px;
+           padding-right:10px;
+          
+        }
+       
+        
+        .first .second .third{
+            font-size:16px;
+        }
+        .what-we-do {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          padding-top:70px;
+            padding-left: 4vw;
+            padding-right:4vw;
+            display:flex;
+            flex-wrap:initial;
+            margin-bottom: 70px;
+        }
+        
+        #last{
+        background: #01202C 0% 0% no-repeat padding-box;opacity: 1; text-align: left;font: Regular 14px Roboto;letter-spacing: 0px;color: #FFFFFF; padding-left:490px; width:100vw;
+        }
+        #download-hd {
+            color: #003041;
+            width: 50%;
+            margin-bottom: 24px;
+        }
+                .store-text-sec{
+            margin-left:680px;
+        }
+
+        
+  }
+   @media all and (min-width:1530px )
+  {
+      .first ,  .second{
+            margin-left:2vw;
+        }
+      
+      .item-size{
+          margin-left:1.5vw;
+          
+        }
+        .search{
+            margin-left:289px;
+        }
+        .home{
+            margin-left:150px;
+        }
+                .for-text-first{
+                     margin-left:20px;
+        }
+         .img img{
+            margin-left:15px;
+            
+        }
+                .what-we-do {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          padding-top:70px;
+            padding-left: 7vw;
+            padding-right: 7vw;
+            display:flex;
+            flex-wrap:initial;
+            margin-bottom: 70px;
+        }
+        #last{
+        background: #01202C 0% 0% no-repeat padding-box;opacity: 1; text-align: left;font: Regular 14px Roboto;letter-spacing: 0px;color: #FFFFFF; padding-left:640px; width:100vw;
+        }
+        #download-hd {
+            color: #003041;
+            width: 40%;
+            margin-bottom: 24px;
+        }
+        .store-text-sec{
+            margin-left:750px;
+        }
+        .what-nav{
+            margin-left:-30px;
+        }
+        
+  }
+  .what-we-do {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          padding-top:70px;
+            padding-left: 4vw;
+            padding-right:4vw;
+            display:flex;
+            flex-wrap:initial;
+            margin-bottom: 70px;
+        }
+
+.sub-menu-1 {
+    display: none;
+    line-height: 24px;
+}
+
+.navbar-nav li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background-color: white;
+}
+
+.navbar-nav li:hover .sub-menu-1 ul {
+    margin-top: 10px;
+}
+
+.navbar-nav li:hover .sub-menu-1 ul li {
+    padding: 15px;
+    border-bottom: 1px solid black;
+    list-style: none;
+    margin-left: -40px;
+}
+
+.sub-menu-2 {
+    display: none;
+}
+
+.starthover:hover .sub-menu-2 {
+    display: block;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -30px;
+    background-color: #FFFFFF;
+}
+
+.starthover:hover.sub-menu-2 ul {
+    margin-top: 50px;
+}
+
+.starthover:hover .sub-menu-2 ul li {
+    padding-top: 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid black;
+    list-style: none;
+    width: 300px;
+}
+
+a.nav-link {
+    font: Medium 21px Roboto;
+    font-weight: 500;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #0083BF !important;
+    font-size: 21px;
+    font-weight: 500;
+}
+  .store-text-sec{
+            margin-left:50%;
+        }
+.navigation {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    z-index: 3;
+    width: 100vw;
+}
+
+#download-nav {
+    margin-left: 2vw;
+}
+
+.down-arrow {
+    margin-left: 16px;
+}
+
+.nav-but {
+    background-color: #0083BF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 165px;
+    height: 48px;
+    top: 16px;
+    background: #0083BF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.search {
+    width: 26px;
+    height: 25px;
+    background: transparent url('himage/Mask Group 234.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 8px;
+}
+        body{
+            width: 100%;
+        }
+        .landImg {
+            width: 100%;
+            /* display: flex; */
+            /* height: 100%; */
+            /* position: absolute; */
+            z-index: -1;
+        }
+        
+        .vid-thumbnails {
+            width: 100vw;
+            padding-left: 25vw;
+            padding-right: 25vw;
+            display: flex;
+            /*flex-direction: relative;*/
+            justify-content: space-around;
+            z-index: 2;
+            margin-top: -20px;
+        }
+        
+        .vids {
+            width: 12vw;
+            margin-left: 20px;
+        }
+        
+        .for {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(217, 233, 243, 0.2);
+            /*padding: 10vw;*/
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .for-text-left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 70px;
+            align-items: center;
+        }
+        
+        .for-heading {
+            font-size: 40px;
+            font-weight: 700;
+            top: 147px;
+            left: 564px;
+            font: Bold 40px/55px Roboto;
+            opacity: 1;
+        }
+        
+        .for-text {
+               /*width: 48vw;*/
+            font-size: 22px;
+             /*align-items:justify;*/
+             
+               text-align: center;
+              font: Regular 100px Roboto;
+              /*font-size : 20px;*/
+              letter-spacing: 0px;
+              color: #000000;
+              /*opacity: 1*/
+        }
+        .for-text-first{
+            line-height:32px; 
+          align-items:justify;
+            top: 1056px;
+           
+            width: 690px;
+            text-align: center;
+            font: Roboto;
+            font-weight: 400
+            font-size: 22px;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 1;
+          
+        }
+        
+        .for-img-right {
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .down-button {
+            margin-top: 40px;
+            background-color: #0083BF;
+            display: flex;
+            justify-content: center;
+            border-radius: 5px;
+            margin-bottom: 50px;
+            
+        }
+        
+        .down-button-text{
+            width: 178px;
+            height: 48px;
+            background-color: #0083BF;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            font-weight: 500;
+            font: Medium 20px/26px Roboto;
+
+            
+        }
+        
+        .hr {
+            margin: 0px;
+            padding: 0px;
+            border: 2px solid #FFCC00;
+            width: 66px;
+            margin-top: 10px;
+            margin-left: 0px;
+            margin-bottom: 40px;
+            border-radius: 3px;
+            
+        }
+        
+        .dark-blue {
+            color: #003041;
+        }
+        
+        .light-blue {
+            color: #0083BF;
+        }
+        
+        .why-partner {
+            padding-top: 5vh;
+            background-color: rgb(217, 233, 243, 0.2);
+            display: flex;
+            height: 50vh;
+            flex-direction: column;
+            align-items: center;
+            font-weight: bolder;
+            font-size: 42px
+        }
+        
+        .why-points {
+            display: flex;
+            justify-content: space-around;
+            width: 100vw;
+            margin-top: 5vh;
+            margin: 5vw;
+        }
+        
+        .img {
+            display: flex;
+            align-items: center;
+        }
+        
+        .circle {
+            height: 52px;
+            width: 52px;
+            border-radius: 50%;
+            background-color: #FFCC00;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        
+        .why-data {
+            font-size: 18px;
+            font-weight: bold;
+            flex-direction: column;
+            margin: 5vw;
+        }
+        
+        .why-content {
+            margin-top: 10px;
+        }
+        
+        .tabcontent{
+            display:none;
+            margin-top:24px;
+        }
+        
+        
+        
+
+        .t1{
+         top: 2249px;
+left: 263px;
+width: 117px;
+height: 24px;
+font-size: 8px;            
+text-align: left;
+font: Regular Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;   
+        }
+        .t2{
+  
+
+top: 2249px;
+left: 412px;
+width: 205px;
+height: 24px;
+            font-size: 8px; 
+text-align: left;
+font: Medium 10px/24px Roboto;
+letter-spacing: 0px;
+color: #0083BF;
+opacity: 1;
+        }
+        
+        .t3{
+            top: 2249px;
+left: 650px;
+width: 142px;
+height: 24px;
+text-align: left;
+            font-size: 8px; 
+font: Regular 10px/24px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+        
+            
+        }
+        .t4
+        {
+            top: 2249px;
+left: 824px;
+width: 213px;
+height: 24px;
+text-align: left;
+font: Regular 10x/24px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1:
+    font-size: 8px; 
+        }
+        
+        .t5
+        {
+            top: 2249px;
+left: 1069px;
+width: 109px;
+height: 24px;
+text-align: left;
+font: Regular 10px/24px Roboto;
+letter-spacing: 0px;
+            font-size: 8px; 
+color: #000000;
+opacity: 1;
+        }
+        .what-nav {
+            display: flex;
+            width: 70vw;
+            font-weight:500;
+            font-size: 18px;
+            text-align: left;
+            font: Regular 18px/24px Roboto;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 1;
+            flex-wrap: wrap;
+            
+          
+        }
+        
+        .link {
+            display: inline-block;
+            color: #000;
+            text-decoration: none;
+            padding-right:25px;
+        }
+        
+        .link::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #FFCC00;
+            transition: width .3s;
+             color: #0083BF;
+        }
+        
+        .link:hover::after {
+                width: 100%;
+                transition: width .3s;
+                color: #00
+                text-align: left;
+                font: Medium 18px/24px Roboto;
+                letter-spacing: 0px;
+                color: #0083BF;
+                opacity: 1;
+        }
+        
+        .what-info {
+            width: 60vw;
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .what-text {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        
+        .data-text
+        {
+            s
+left: 714px;
+width: 494px;
+height: 106px;
+text-align: left;
+font: Regular 16px/28px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+        }
+        .know-button button {
+            width: 150px;
+            height: 48px;
+            background-color: #0083BF;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            font-weight: 500;
+            line-height: 20px;
+            margin-top: 24px;
+        }
+        
+        .download-section {
+            display: flex;
+            justify-content: space-between;
+            padding: 70px;
+            height: 600px;
+            background-color: #0083BF;
+            margin-bottom: 70px;
+        }
+        
+        .d-left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        #d1 {
+            position: absolute;
+            transform: translate(-120px, -110px);
+            z-index: 0;
+        }
+        
+       
+        
+        .images {
+            width: 35%
+        }
+        
+        .download-heading {
+            color: white;
+            font-weight: bold;
+            font-size: 50px;
+            z-index: 2;
+            margin-left: 50px;
+            
+        }
+        
+        .download-sub-heading {
+            color: white;
+            font-weight: bold;
+            font-size: 70px;
+            z-index: 2;
+            margin-left: 50px;
+        }
+        
+        .ehnapp-store {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .enhapp-img {
+            width: 100vw;
+            height: 600px;
+            padding: 9vh;
+            padding-left: 9vw;
+            padding-right: 9vw;
+            display: flex;
+        }
+        
+        .store-heading {
+            margin-bottom: 5%;
+            width: 50%;
+            font-size: 32px;
+            font-weight: bold;
+           
+        }
+        
+        .store-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+        }
+        
+        .store-data {
+            width: 42%;
+            font-size: 16px;
+            
+        }
+        
+        
+        
+        .store-right p {
+            align-self: flex-end;
+        }
+        
+        #en1 {
+            background-image: url("img/B1.jpg");
+            background-size: 132vw;
+            background-repeat:no-repeat;
+        }
+        
+        #en2 {
+            background-image: url("img/happy-man.jpg");
+            background-size: cover;
+            background-size: 132vw;
+            background-repeat:no-repeat;
+        }
+        
+        #en3 {
+            background-image: url("img/happy-man.jpg");
+            background-size: 100vw;
+        }
+        
+        #en4 {
+            background-image: url("img/Mobile-banner.jpg");
+            background-size: 100vw;
+            background-repeat: no-repeat;
+        }
+        
+        .life {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 70px;
+            padding-left: 9vw;
+            padding-right: 9vw;
+            /*text-align: center;*/
+        }
+        
+        .life-images {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .life-text-heading {
+            margin-top: 24px;
+            margin-bottom: 20px;
+            font-size: 22px;
+            font-weight: 600px;
+        }
+        
+        .life-data {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+        
+        .life-component {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-right: 15px;
+        }
+        /*  .know-more{
+          display: flex;
+          justify-content: space-between;
+
+        }*/
+        
+        .know-more-link {
+            margin-top: 24px;
+            display: flex;
+            color: #003041;
+            font-weight: bold;
+            font-size: 20px;
+            justify-content: space-between;
+        }
+        
+        .link:hover {
+            color: #0083BF;
+        }
+        .link:active{
+            color: #0083BF;
+        }
+        
+        .tab1{
+            font-weight:Bold;
+            color:#0083BF;
+        }
+        #lg-head {
+            width: 50%;
+        }
+        
+        
+        
+        .down-msg {
+            color: #2062AD;
+            margin-bottom: 24px;
+            text-align: left;
+font: Medium 22px/29px Roboto;
+letter-spacing: 0px;
+        }
+        
+        .play-app-icons img {
+            height: 46px;
+            margin-right: 8px;
+            margin-top: 18px;
+        }
+        
+        .success {
+            height: 778px;
+            padding: 70px;
+            background-color: #D9E9F3;
+            opacity: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #h1 {
+            transform: translate(-8vw, 10px);
+        }
+        
+        #h2 {
+            transform: translate(-15vw, 160px);
+        }
+        
+        .har-imgs {
+            margin-top: 24px;
+            margin-left: 50px;
+        }
+        
+        .har-imgs img {
+            margin-right: 26px;
+            height: 49px;
+        }
+        
+        #small-p {
+            margin-top: -22px;
+            font-size: 16px;
+        }
+        
+        lsd-sub {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #yoga-right {
+            width: 30%;
+        }
+        
+        .nmdata {
+            font-weight: bold;
+            font-size: 20px;
+            color: #003041
+            margin-top: 24px;    
+        }
+        
+        #what-img {
+           /* background-color: #0083BF;
+            width: 386px;
+            height: 450px;
+           border-radius: 5px;
+            margin-right: 7vw;
+            margin-left: -5vw;;
+            top: 2341px; */
+            filter: drop-shadow(0px 10px 10px #00000035);
+  
+             width: 100%;
+              height: auto;
+            
+        }
+        
+        #what-img img {
+            transform: translate(-18px, -10px);
+            width: 100%;
+
+  
+
+        }
+        
+        .play-button {
+            font-weight: bold;
+            font-size: 23px;
+            color: white;
+            top: 221px;
+            left: 83vw;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80px;
+            height: 80px;
+            background-color: rgb(0, 0, 0, 0.28);
+            border-radius: 50%;
+        }
+        
+        .ban-text {
+           
+            font-weight: bold;
+            font: Bold 4vw Roboto;
+            position: absolute;
+            left: 34vw;
+            top: 408px;
+            left: 440px;
+            width: 479px;
+            height: 66px;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            text-shadow: 0px 3px 6px #00000029;
+            opacity: 1;
+        }
+        
+        #vid {
+            display: none;
+        }
+        
+        .ft-mail {
+            background: transparent;
+            border: 1px solid white;
+            border-radius: 5px;
+            height: 53px;
+            width: 303px;
+            padding: 16px;
+        }
+
+        .ft-mail::placeholder {
+            color: white;
+        }
+        
+        #content {
+            top: 20px;
+            left: 477px;
+            width: 526px;
+            height: 60px;
+            position: absolute;
+        }
+        
+        }
+        #stories {
+            text-align: center;
+            font: Bold 46px/70px Roboto;
+            letter-spacing: 0px;
+            color: #0084BD;
+        }
+        
+        #success {
+            text-align: center;
+            font: Bold 40px/70px Roboto;
+            letter-spacing: 0px;
+            color: #003041;
+            
+            
+        }
+        
+        #image1 {
+            background: transparent url('img/Mask Group 214.png') 0% 0% no-repeat padding-box;
+            opacity: 1;
+            width: 89.84px;
+            height: 93.13px;
+            left: 182px;
+            top: 210px;
+            position: absolute;
+            filter: drop-shadow(5px 5px 5px #222);
+        }
+        
+        #layout {
+            left: 0px;
+            width: 1440px;
+            height: 770px;
+            margin-top: -20px;
+            position: relative;
+            background-color: #D9E9F3;
+            opacity: 20;
+        }
+        
+        #detail1 {
+            width: 113px;
+            height: 43px;
+            background: #0083BF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px #00000029;
+            opacity: 1;
+            margin-left: 83.26px;
+            display: none;
+        }
+        
+        .review {
+            position: absolute;
+            left: 743px;
+            top: 290px;
+        }
+        
+        .reviewDetail {
+            background: transparent url('img/Union 1.png') 0% 0% no-repeat padding-box;
+            background-size: cover;
+            width: 506px;
+            height: 216px;
+            margin-top: -60px;
+            margin-left: 30px;
+        }
+        
+        #title {
+            color: white;
+            text-align: center;
+            padding-top: 24px;
+        }
+        
+        #para {
+            color: white;
+            text-align: left;
+            padding-left: 45px;
+        }
+        
+        #img0,
+        #img1,
+        #img2,
+        #img3,
+        #img4,
+        #img5,
+        #img6,
+        #img7,
+        #img8,
+        #img9,
+        #img10 {
+            color: white;
+            width: 113px;
+            height: 43px;
+            background: transparent url('img/Path 1869.png') 0% 0% no-repeat padding-box;
+            background-size: cover;
+            opacity: 1;
+            text-align: center;
+            opacity: 1;
+            position: absolute;
+            z-index: 1;
+        }
+        
+        #img0 {
+            margin-left: 72px;
+        }
+        
+        #img10 {
+            margin-top: 263.68px;
+            margin-left: 140px;
+        }
+        
+        #img3 {
+            margin-top: 243.68px;
+        }
+        
+        #img5 {
+            margin-top: 353.68px;
+            margin-left: 50px;
+        }
+        
+        #img4 {
+            margin-top: 353.68px;
+            margin-left: 250px;
+        }
+        
+        #img9 {
+            margin-top: 263.68px;
+            margin-left: 280px;
+        }
+        
+        #img8 {
+            margin-top: 253.68px;
+            margin-left: 450px;
+        }
+        
+        #img6 {
+            margin-top: 153.68px;
+            margin-left: 350px;
+        }
+        
+        #img7 {
+            margin-left: 345px;
+            margin-top: 40px;
+        }
+        
+        #img1 {
+            margin-top: 150.68px;
+            margin-left: 45px;
+            width: 93px;
+            height: 33px;
+        }
+        
+        #img2 {
+            margin-top: 115.68px;
+            margin-left: 210px;
+        }
+        
+        .imageName {
+            position: relative;
+        }
+        
+        #border {
+            width: 66px;
+            margin-left: 230px;
+            height: 0px;
+            border: 2px solid #FFCC00;
+            opacity: 1;
+            margin-bottom: -100px;
+        }
+        
+        #imTitle {
+            padding-top: 24px;
+        }
+        @media (min-width:978px)
+        {
+             .store-text-sec{
+            margin-left:50%;
+             }
+        }
+       
+        
+        
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+            .for {
+                flex-direction: column;
+                align-items: center;
+            }
+            .for-text-left {
+                text-align: center;
+                margin-right: 0px;
+                align-items: center;
+            }
+        }
+   @media (min-width:1277px)
+   {
+       
+   }
+    </style>
+</head>
+
+<body>
+    
+     <div class="container-fuild">
+            <nav class="navbar navbar-expand-lg navbar-light navigation">
+               <a class="navbar-brand" href="#" style="margin-left:6vw;">
+
+                   <a href="index.html"> <img src="assets/img/logo.svg" alt="ENHAPP"> </a>
+               </a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+               </button>
+
+               <div class="collapse navbar-collapse" id="navbarSupportedContent"style="text-align:center;">
+                   <ul class="navbar-nav mr-auto">
+                       <li class="nav-item active">
+                           <a class="nav-link " href="index.html" style="margin-left:160px;">Home <span class="sr-only"></span></a>
+                       </li >
+
+                       <li class="nav-item">
+                           <a class="nav-link" href="#" style="margin-left:16px;">Who Is It For <span class="sr-only"></span>
+                               <img class="down-arrow" src="assets/img/down-arrow.svg"></a>
+
+                           <div class="sub-menu-1">
+                               <ul>
+                                   <li class="starthover">
+                                       <a href="#"> ENHAPP for Business <img class="down-arrow" src="assets/img/down-arrow.svg" style="transform: rotate(270deg);"></a>
+                                       <div class="sub-menu-2">
+                                           <ul>
+                                               <li>
+                                                   <a href="Insurance.html"> ENHAPP for Insurance Companies</a>
+                                               </li>
+                                               <li>
+                                                   <a href="corporate.html"> ENHAPP for Corporates</a>
+                                               </li>
+                                               <li>
+                                                   <a href="hospital.html"> ENHAPP for Hospitals</a>
+                                               </li>
+                                           </ul>
+                                       </div>
+                                   </li>
+                                   <li>
+                                       <a href="Professional.html"> ENHAPP for Professionals</a>
+                                   </li>
+                                   <li>
+                                       <a href="Enduser.html"> ENHAPP for You</a>
+                                   </li>
+                               </ul>
+                           </div>
+                       </li>
+                       <li class="nav-item" style="margin-left:16px;">
+                           <a class="nav-link" href="https://zen-meninsky-011afe.netlify.app/">About Us</a>
+                       </li>
+                       <!--search-->
+                       <li class="nav-item" style="margin-left:140px;">
+                           <div class="search"></div>
+
+                       </li>
+                       <!--download-->
+                       <li>
+                           <div class="nav-item element" id="download-nav">
+                               <button class="nav-but">Download Now</button>
+
+                           </div>
+
+                       </li>
+
+                   </ul>
+
+               </div>
+           </nav>
+
+       </div>
+            
+    
+    <div class="main">
+        <section class="imgs">
+            <div class="landing-img">
+                <img id="landImg-img" class="landImg" src="assets/img/Banner-lg.png">
+                <video id="vid" class="landImg">
+                <source src="img/movie.mp4" type="video/mp4">
+                </video>
+                <div class="play-button" onclick="play(event , 'landImg-img' , 'vid' , 'text')">Play</div>
+                <div class="ban-text" id="text">Building a Better You</div>
+            </div>
+        </section>
+        <section class="for">
+            <div class="vid-thumbnails">
+                <!--  <img class="vids" src="assets/img/v1-lg.png"> 
+                <img class="vids" src="assets/img/v1-lg.png"> 
+                <img class="vids" src="assets/img/v1-lg.png">
+                <img class="vids" src="assets/img/v1-lg.png"> -->
+            </div>
+           <div class="for-text-left">
+                <div class="for-heading"><span class="dark-blue">We Are</span><span class="light-blue"> ENHAPP</span></div>
+                <div class="hr"></div>
+                <div class="for-text">
+                    <div class="for-text-first">
+                   From intelligent robots to self driven cars, technological change is happening at the speed of light around us. Technological and digital advancement continues to transform our lives and encourage us to form new habits, find new ways to work together, and become a better version of ourselves.
+                   <br>
+
+                     </div>
+                                          <br>
+                        <div class="for-text-first" >
+                   Introducing, ENHAPP - an integrated health and wellness platform that is committed to a growth-driven convergence of digital and physical health and wellbeing. In our world, everyone succeeds and prospers while working together. 
+                   <br>
+                   
+                        </div>
+                        <br>
+                        <div class="for-text-first">
+                              From medical professionals, hospitals, and insurance companies to fitness professionals and end-users, ENHAPP’s integrated platform maximizes motivation,
+                    engagement, and collaboration to drive health improvement and provide hands-on, consultative services far and wide.
+                   <br>
+                   
+                        </div>
+                        
+                </div>
+            </div>
+            <div class="for-img-right">
+                <div class="img">
+                    <img src="img/iPhone X-XS-11 Pro – 1@2x.png" style="width: 100%;">
+                </div>
+                <div class="img ">
+                    <img src="img/iPhone X-XS-11 Pro – 2@2x.png" style="width: 100%;">
+                </div>
+                <div class="img" style="width: 265px;height: 539px;">
+                    <img src="assets/img/img1.png" style="width: 100%;">
+                </div>
+                <div class="img">
+                    <img src="img/iPhone X-XS-11 Pro – 4@2x.png" style="width: 100%;">
+                </div>
+                <div class="img ">
+                    <img src="img/iPhone X-XS-11 Pro – 5@2x.png" style="width: 100%;">
+                </div>
+            </div>
+            <div class="down-button">
+                <button class="down-button-text">Download App</button>
+            </div>
+            <br>
+        </section>
+        <section class="what-we-do">
+            <div class="for-heading"><span class="dark-blue">ENHAPP for </span><span class="light-blue">Individuals </span></div>
+            <div class="hr"></div>
+            
+            <div class="what-info">
+                <div id="what-img" class="img">
+                    <img src="img/For-Individuals.png">
+                </div>
+                <div class="what-text">
+                   
+                    <div class="data-text">ENHAPP is an integrated health and wellness platform that empowers fitness and wellness professionals to reach out to a larger group of audience. With expert coaching facilities, online consultations, and collaborative programs with other industry professionals, ENHAPP enables fitness professionals to expand their reach and establish meaningful and engaging wellness programs.<br></div>
+                    <div class="know-button">
+                        <br> 
+                        <br> 
+
+                       <a href="betterYou.html"> <button>Know more</button> </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--first-->
+                <section class="what-we-do">
+            <div class="for-heading"><span class="dark-blue">ENHAPP for </span><span class="light-blue">Fitness Profesionals </span></div>
+            <div class="hr"></div>
+
+            <div class="what-info">
+                <div id="what-img" class="img">
+                    <img src="img/For-Fitness-Professionals.png">
+                </div>
+                <div class="what-text">
+                   
+                    <div class="data-text" style="text-align:justify">ENHAPP is an integrated health and wellness platform that empowers fitness and wellness professionals to reach out to a larger group of audience. With expert coaching facilities, online consultations, and collaborative programs with other industry professionals, ENHAPP enables fitness professionals to expand their reach and establish meaningful and engaging wellness programs.<br></div>
+                    <div class="know-button">
+                        <br> 
+                                                <br> 
+
+                       <a href="Professional.html">  <button>Know more</button> </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--third-->
+                <section class="what-we-do">
+            <div class="for-heading"><span class="dark-blue">ENHAPP </span><span class="light-blue">For Business </span></div>
+            <div class="hr"></div>
+           
+            <div class="what-info">
+                <div id="what-img" class="img">
+                    <img src="img/For-Corporates.png" class="tabcontent" style="display:block;" id="imgfirst">
+                     <img src="img/For-Hospitals-and-Clinics.png" class="tabcontent" id="imgsecond" >
+                      <img src="img/For-Insurance-Companies.png" class="tabcontent" id="imgthird">
+                </div>
+                <div class="what-text">
+                     <div class="what-nav" >
+                          <div  class="tablinks link first tab1"  onclick="openCity(event, 'first','imgfirst')">  For Corporates</div> 
+                          <div  class="tablinks link second"  onclick="openCity(event, 'second' , 'imgsecond')" > For Healthcare Companies </div>
+                          <div  class="tablinks link third"  onclick="openCity(event, 'third' , 'imgthird')">  For Insurance Companies </div>
+                      </div>
+                                <div id="first" class="tabcontent" style="display:block;text-align:justify">
+                                <div class="data-text">ENHAPP is an integrated health and wellness platform that empowers fitness and wellness professionals to reach out to a larger group of audience. With expert coaching facilities, online consultations, and collaborative programs with other industry professionals, ENHAPP enables fitness professionals to expand their reach and establish meaningful and engaging wellness programs.<br></div>
+                                            <div class="know-button">
+                                                <br> 
+                                                <br> 
+                                                <a href="corporate.html" > <button>Know more</button> </a>
+                                            </div>
+                                </div>
+                   <div id="second" class="tabcontent" style="text-align:justify">
+                    <div class="data-text">ENHAPP is an integrated health and wellness platform that empowers fitness and wellness professionals to reach out to a larger group of audience.ENHAPP enables fitness professionals to expand their reach and establish meaningful and engaging wellness programs.<br></div>
+                    <div class="know-button">
+                        <br> 
+                        <br> 
+                        <a href="hospital.html" > <button>Know more</button> </a>
+                    </div>
+                   </div>
+                 <div id="third" class="tabcontent" style="text-align:justify">
+                    <div class="data-text">ENHAPP is an integrated health and wellness platform that empowers fitness and wellness professionals to reach out to a larger group of audience. With expert coaching facilities, online consultations, and collaborative programs with other industry professionals, ENHAPP enables fitness professionals to expand their reach and establish meaningful and engaging wellness programs.<br></div>
+                    <div class="know-button">
+                        <br> 
+                        <br> 
+                        <a href="Insurance.html" > <button>Know more</button> </a>
+                    </div>
+              </div>
+            </div>
+        </section>
+        
+        
+        
+        <!--harness-->
+        <section class="download-section">
+            <div class="d-left">
+                <div class="download-heading">
+                    Harness The Power
+                </div>
+                <div class="download-sub-heading">
+                    To Build A Better You.
+                </div>
+                <div class="har-imgs">
+                    <img src="assets/img/harness-app.png"><img src="assets/img/harness-gplay.png">
+                </div>
+            </div>
+            <div class="images">
+                <img id="d1" src="assets/img/Untitled-1.png" >
+                
+            </div>
+        </section>
+        <section class="ehnapp-store">
+            <div class="for-heading"><span class="dark-blue">ENHAPP</span><span class="light-blue"> Store</span></div>
+            <div class="hr"></div>
+            <div id='en1' class="enhapp-img">
+                <div class="store-text">
+                    <div class="store-heading" style="margin-bottom:2%;">
+                        Wellness Management Programs
+                    </div>
+                    <div class="store-data">
+                        <p Style="text-align:justify;">
+                            Our customized programs curated by industry experts and medical professionals are designed to maintain and improve overall health and wellbeing of people around the globe.</p>
+                    </div>
+                    <div class="nmdata">
+                      <a href="http://legal1.96.lt/Enhapp/landingPage/Professional.html#Store">  Know more</a> &nbsp;&nbsp;<img src="assets/img/r-arrow.svg">
+                    </div>
+                </div>
+            </div>
+               <div id='en2' class="enhapp-img">
+                <div class="store-text store-text-sec">
+                    <div class="store-heading store-right" style="width:413px;">
+                            Care Management Programs
+                    </div>
+                    <div class="store-data store-right">
+                        <p class="store-right" style="width:467px;">
+                             Our care management programs are designed to address health and wellness concerns and are intended to enhance the quality of life of people around the globe.</p>
+                    </div>
+                    <div id="yoga-right" class="nmdata store-right" >
+                  <a href=" http://legal1.96.lt/Enhapp/landingPage/Professional.html#EnhappStore"> Know more</a> &nbsp;&nbsp;<img src="assets/img/r-arrow.svg">
+                    </div>
+                </div>
+            </div> 
+           <!-- <div id='en3' class="enhapp-img">
+                <div class="store-text">
+                    <div id="lg-head" class="store-heading">
+                        Care Management Programs
+                    </div>
+                    <div class="store-data">
+                        <p Style="text-align:justify;">
+                            Our care management programs are designed to address health and wellness concerns and are intended to enhance the quality of life of people around the globe.
+
+                        </p>
+                    </div>
+                    <div class="nmdata">
+                        Know more &nbsp;&nbsp;<img src="assets/img/r-arrow.svg">
+                    </div>
+                </div>
+            </div> -->
+            <div id='en4' class="enhapp-img" style="width:100%">
+                <div class="store-text">
+                    <div id="download-hd" class="store-heading">
+                        Get The Power To Build A Better <br> You, In The Palm Of Your Hand!
+                    </div>
+                    <div class="down-msg">
+                        Download ENHAPP & Be Better Everyday
+                    </div>
+                    <div class="play-app-icons">
+                        <img src="assets/img/appstore.png"><img src="assets/img/gplay.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  <section class="life">
+            <div class="for-heading"><span class="dark-blue">TheENHAPP</span><span class="light-blue">Life</span></div>
+            <div class="hr"></div>
+            <div class="life-data">
+                <div class="life-component">
+                    <div class="life-img">
+                        <img src="assets/img/1.png">
+                    </div>
+                    <div class="life-text-heading">
+                        Eat Well, Live Well
+                    </div>
+                    <div class="life-sub-heading">
+                        As individuals, people are becoming more & more attuned to achieving healthier...
+                    </div>
+                    <div class="know-more-link">
+                        <div>
+                            Know more &nbsp;&nbsp;<img src="assets/img/r-arrow.svg">
+                        </div>
+                        <div class="know-more icons">
+                            <img src="assets/img/fb-logo.svg">
+                            <img src="assets/img/insta-logo.svg">
+                            <img src="assets/img/tw-logo.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="life-component">
+                    <div class="life-img">
+                        <img src="assets/img/2.png">
+                    </div>
+                    <div class="life-text-heading">
+                        Eat Well, Live Well
+                    </div>
+                    <div class="life-sub-heading">
+                        As individuals, people are becoming more & more attuned to achieving healthier...
+                    </div>
+                    <div class="know-more-link">
+                        <div>
+                            Know more &nbsp;&nbsp;<img src="assets/img/r-arrow.svg">
+                        </div>
+                        <div class="know-more icons">
+                            <img src="assets/img/fb-logo.svg">
+                            <img src="assets/img/insta-logo.svg">
+                            <img src="assets/img/tw-logo.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="life-component">
+                    <div class="life-img">
+                        <img src="assets/img/3.png">
+                    </div>
+                    <div class="life-text-heading">
+                        Eat Well, Live Well
+                    </div>
+                    <div class="life-sub-heading">
+                        As individuals, people are becoming more & more attuned to achieving healthier...
+                    </div>
+                    <div class="know-more-link">
+                        <div>
+                            Know more &nbsp;&nbsp;<img src="assets/img/r-arrow.svg">
+                        </div>
+                        <div class="know-more icons">
+                            <img src="assets/img/fb-logo.svg">
+                            <img src="assets/img/insta-logo.svg">
+                            <img src="assets/img/tw-logo.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section> -->
+        
+    
+      <div class=" footer" style="height:550px; padding-top:70px; width=100vw;">
+            <div class="f-logo">
+                <img src="assets/img/logo-white.svg">
+            </div>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-1">
+
+                    <div class="lists" >
+                        <div class="list">
+                            <p style=" width:240px">About Us</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="list-who list">
+                        <p>Who is it for</p>
+                        <a href="Insurance.html">For Insurance</a>
+                        <a href="hospital.html">For Healthcare Companies</a>
+                        <a href="corporate.html">For Organisations</a>
+                        <a href="Enduser.html">For Individuals</a>
+                        <a href="Professional.html">Fitness Professionals</a>
+
+                    </div>
+                </div>
+                <div class="col-md-3"> </div>
+                <div class="col-md-3">
+                    <div class="list">
+                        <div class="list-sub-div">
+                            <img src="assets/img/live-chat.svg">
+                            <p style="margin-bottom: 0px; margin-left: 16px;">Live Chat</p>
+                        </div>
+                        <div id="call" class="list-sub-div">
+                            <img src="assets/img/dialler.svg">
+                            <p style="margin-bottom: 0px; margin-left: 8px;">(019) 123456789</p>
+                        </div>
+                        <div class="list-sub-div">
+                            <img src="assets/img/gplay.png"> <img src="assets/img/appstore.png" style="margin-left:21px;">
+                        </div>
+                        <div class="list-sub-div">
+                            <img src="img/Mask Group 248.png" alt="Mask Group 248.png" style="margin-right:17px;">
+                            <img src="img/Mask Group 249.png" alt="" style="margin-right:17px;">
+                            <img src="img/Mask Group 250.png" alt="" style="margin-right:17px;">
+                            <img src="img/Mask Group 251.png" alt="" style="margin-right:17px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+
+        </div>
+        <div class="container-fuild" id="last">
+            © 2020 ENHAPP. All Rights Reserved.
+        </div>
+    <!-- <section class="why-partner">
+        <div class="why-heading">
+          <span class="dark-blue">Why Partner</span> <span class="light-blue">with ENHAPP</span>
+        </div>
+        <div class="hr"></div>
+        <div class="why-points">
+          <div class="why-data">
+            <div class="circle">
+              01
+            </div>
+            <div class="why-content">
+               User engagement and round-the-clock interaction with your customers 
+            </div>
+          </div>
+          <div class="why-data">
+          <div class="circle">
+              02
+            </div>
+            <div class="why-content">
+               User engagement and round-the-clock interaction with your customers 
+            </div>
+          </div>
+          <div class="why-data">
+            <div class="circle">
+              03
+            </div>
+            <div class="why-content">
+               User engagement and round-the-clock interaction with your customers 
+            </div>
+          </div>
+        </div>
+      </section> -->
+    </div>
+    <!-- Optional JavaScript -->
+    <script type="text/javascript">
+        myobject = [{
+            id: 0,
+            "name": "mark",
+            "img": "img/c1.png",
+            "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.."
+        }, {
+            id: 1,
+            "name": "name1",
+            "img": "img/c2.png",
+            "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.."
+        }, {
+            id: 2,
+            "name": "name1",
+            "img": "img/c3.png",
+            "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.."
+        }, {
+            id: 3,
+            "name": "name1",
+            "img": "img/c9.png",
+            "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.."
+        }, {
+            id: 4,
+            "name": "name1",
+            "img": "img/c10.png",
+            "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.."
+        }, {
+            id: 5,
+            "name": "name1",
+            "img": "img/c11.png",
+            "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.."
+        }, {
+            id: 6,
+            "name": "name1",
+            "img": "img/c5.png",
+            "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.."
+        }, {
+            id: 7,
+            "name": "name1",
+            "img": "img/c4.png",
+            "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.."
+        }, {
+            id: 8,
+            "name": "name1",
+            "img": "img/c6.png",
+            "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.."
+        }, {
+            id: 9,
+            "name": "name1",
+            "img": "img/c8.png",
+            "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.."
+        }, {
+            id: 10,
+            "name": "name1",
+            "img": "img/c7.png",
+            "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.."
+        }, ]
+        var html = '';
+        var htmlname = '';
+        var list = document.getElementsByClassName("imageName");
+
+        var detail = document.getElementById("detail1");
+        var imagedetail = document.getElementById("imagedetail");
+        var imageNamedetail = document.getElementById("imageNamedetail");
+
+        for (var x = 0; x < myobject.length; x++) {
+            list[x].addEventListener("mouseover", work);
+        }
+        for (var x = 0; x < myobject.length; x++) {
+            list[x].addEventListener("mouseout", workdone);
+
+        }
+
+        function workdone() {
+
+            imageNamedetail.innerHTML = '';
+        }
+
+        function work(e) {
+
+
+            html = "<div class='review'> <img src='" + myobject[e.target.dataset.id].img + "' class='imgstyle'> <div class='reviewDetail'> <h3 id='title'>" + myobject[e.target.dataset.id].name + "</h3> <p id='para'>" + myobject[e.target.dataset.id].detail + " </p> </div></div>"
+            imagedetail.innerHTML = html;
+            htmlname = "<div class='imd' id= 'img" + myobject[e.target.dataset.id].id + "'> <div id='imdTitle'>" + myobject[e.target.dataset.id].name + " </div> </div> ";
+            imageNamedetail.innerHTML = htmlname;
+        }
+
+      
+        
+ function openCity(evt, cityName , image) {
+        
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+     
+     
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+    
+    
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+     tablinks[i].classList.remove('tab1');
+      
+    
+    
+  
+  document.getElementById(cityName).style.display = "block";
+  
+  document.getElementById(image).style.display="block";
+  evt.currentTarget.className += " active";
+ } 
+}
+function play(e , i , v , t)
+{
+    document.getElementById(i).style.display="none";
+    document.getElementById(t).style.display="none";
+    document.getElementById(v).style.display="block";
+document.getElementById(v).autoplay=true;
+document.getElementById(v).load();
+
+
+    
+}
+ 
+    </script>
+
+</body>
+
+</html>
